@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>672</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Category
+--
+Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>512</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Spend Sheet
+--
+Id 
+Date
+Total</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>824</x>
+      <y>512</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+Id
+Name
+Total</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>192</x>
+      <y>512</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>User
+--
+Email
+Password</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>544</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>has
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>544</y>
+      <w>112</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>has
+lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>376</x>
+      <y>688</y>
+      <w>80</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+has
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;80.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>424</y>
+      <w>496</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Domain model for web API</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>616</x>
+      <y>512</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Purchase
+--
+Id
+Name
+Amount
+Price
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>736</x>
+      <y>544</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>has
+m1=1..*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>608</x>
+      <y>264</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Category
+--
+Name
+Total</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>400</x>
+      <y>264</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Spend Sheet
+--
+Id (email + date)
+Date
+Total</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>808</x>
+      <y>264</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Item
+--
+Name
+Total
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>192</x>
+      <y>264</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>User
+--
+Email
+Password</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>312</x>
+      <y>296</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>has
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>296</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>has
+lt=&lt;&lt;&lt;&lt;&lt;-
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>728</x>
+      <y>296</y>
+      <w>96</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+has
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;100.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>184</x>
+      <y>176</y>
+      <w>496</w>
+      <h>24</h>
+    </coordinates>
+    <panel_attributes>Domain model for mobile app</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1016</x>
+      <y>264</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+Name
+Amount
+Price</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>928</x>
+      <y>296</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>has
+m1=1
+m2=0..*</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>664</x>
+      <y>72</y>
+      <w>128</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>For now... categories
+are defined by the 
+system not by the user</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>128</y>
+      <w>24</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>848</x>
+      <y>72</y>
+      <w>144</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>System should recognize
+products and assign item
+name to given product</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>896</x>
+      <y>128</y>
+      <w>24</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1008</x>
+      <y>72</y>
+      <w>144</w>
+      <h>64</h>
+    </coordinates>
+    <panel_attributes>Item name for pepsi cola is
+non-alcoholic beverage...
+the product is instance of
+item</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>896</x>
+      <y>128</y>
+      <w>192</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;70.0;220.0;70.0;220.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1080</x>
+      <y>592</y>
+      <w>40</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>has
+m1=1..*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1032</x>
+      <y>512</y>
+      <w>128</w>
+      <h>88</h>
+    </coordinates>
+    <panel_attributes>Classification
+--
+Name</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>944</x>
+      <y>544</y>
+      <w>104</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>has
+m1=1..*
+m2=1</panel_attributes>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+  </element>
+</diagram>
